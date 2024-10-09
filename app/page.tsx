@@ -7,8 +7,8 @@ export default function Home() {
     <div className="flex h-screen max-h-screen">
       {/* TODO: OTP Verification | passKeyModal */}
 
-      <section className="remove-scrollbar container my-auto">
-        <div className="sub-container max-w-[496px]">
+      <section className="remove-scrollbar container">
+        <div className="sub-container max-w-[860px] flex-1 flex-col py-10">
           <Image
             src="/assets/icons/logo-full.svg"
             height={1000}
